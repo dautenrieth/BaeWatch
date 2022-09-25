@@ -1,0 +1,9 @@
+-keep class com.dexterous.** { *; }
+-keepclassmembers enum * {*;}
+build.gradle
+  buildTypes {
+    release {
+       minifyEnabled false
+       shrinkResources false
+       }
+      }
